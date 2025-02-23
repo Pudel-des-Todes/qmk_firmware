@@ -25,8 +25,10 @@
 
 #define SNLED27351_PHASE_CHANNEL SNLED27351_SCAN_PHASE_9_CHANNEL
 /* Set led driver current */
-#define SNLED27351_CURRENT_TUNE \
-    { 0x9D, 0x9D, 0x44, 0x9D, 0x9D, 0x44, 0x9D, 0x9D, 0x44, 0x9D, 0x9D, 0x44 }
+#define SNLED27351_CURRENT_TUNE {0x9D, 0x9D, 0x44, 0x9D, 0x9D, 0x44, 0x9D, 0x9D, 0x44, 0x9D, 0x9D, 0x44}
 
 /* Enable caps_lock, win os and mac os indicator */
 #define CAPS_MAC_WIN_LED_INDEX 63
+
+/* Caps Word configuration */
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
