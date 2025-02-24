@@ -84,3 +84,7 @@
 /* Factory test keys */
 #define FN_KEY1 MO(1)
 #define FN_KEY2 MO(3)
+
+
+/* caps word config */
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
