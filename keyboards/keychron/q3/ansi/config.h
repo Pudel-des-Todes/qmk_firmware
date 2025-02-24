@@ -25,3 +25,5 @@
 /* Enable CapsLock LED */
 #define CAPS_LOCK_LED_INDEX 50
 
+/* Caps Word configuration */
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
